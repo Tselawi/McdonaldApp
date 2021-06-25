@@ -6,7 +6,7 @@
 > Making order online
 > ## This website is responsive only for mobile 
 
-- [Deploy website](https://ta-mcdonaldapp.netlify.app/order)
+- [Deploy website](https://ta-mcdonaldapp.netlify.app/)
 
 ## Install
 
