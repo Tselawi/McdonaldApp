@@ -1,0 +1,45 @@
+.scrollmenu {
+    overflow-y: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+    div{
+    .icon-list {
+    display: inline-block;
+    color: #EFA363;
+    padding: 10px;
+    margin-top:4px;
+    margin-right: 18px ;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border: 2.3px solid #E9E8E2;
+    border-radius: 15px;
+    box-shadow: rgba(249, 203, 51, 0.247) 0px 4px 12px;
+  }
+  .icon-list:hover{
+      color: #fff;
+      background-color: #F9CC33;
+  }
+}
+
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 60px;
+    }
+
+    .addCart{
+      -webkit-text-fill-color: white;
+      -webkit-text-stroke-width: 1.2px;
+      -webkit-text-stroke-color: #61BB07;
+    }
+
+    .card-img-overlay{
+      color: #48B3F2;
+      font-size: .9rem;
+      font-weight: bold;
+      margin-right: 50px;
+    }

@@ -1,0 +1,76 @@
+.header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+   
+    .cart{
+      position: absolute;
+      right: 5px;
+      top: 15px;
+    }
+    .btn-carts{
+      padding: 14px;
+      font-size: 17px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      border-radius: 10px;
+      background-color: #fff;
+      position: relative;
+    }
+    .fas{
+      color: #fff;
+      -webkit-text-fill-color: white;
+      -webkit-text-stroke-width: 1.2px;
+      -webkit-text-stroke-color: black;
+    }
+    .text-num{
+      position: absolute;
+      top:11px;
+      right: 7px;
+
+    }  
+  }
+  .setting{
+      width: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 19px;
+      border-radius: 10px;
+      background-color: #fff;
+      .fa-sliders-h{
+        color: #fff;
+      -webkit-text-fill-color: white;
+      -webkit-text-stroke-width: .7px;
+      -webkit-text-stroke-color: black;
+      }
+  }
+  
+  .txt-gray{
+    color: #868686;
+    font-weight: bold;
+  }
+  
+    .card{
+      border: 2px solid #F3F3F4;
+      border-radius: 20px;
+      position: relative;
+      margin-bottom: -50px;
+    }
+
+    .navigation{
+      position: relative;
+      background-color: #fff;
+      z-index: 2;
+      border-radius: 15px;
+      height: 70px;
+      bottom: 10px;
+      .btn-light{
+        color: #CCCAC9;
+        border-radius: 12px;
+        font-size: 18px;
+      }
+      .btn-light:hover{
+        color:#ED8333;
+        background-color: #FEF9E7;
+      }
+    }

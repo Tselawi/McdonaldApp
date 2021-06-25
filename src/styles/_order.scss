@@ -1,0 +1,25 @@
+.order-hd{
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+}
+
+.btn-light{
+    border-radius: 10px;
+}
+.bts{
+    border-radius: 10px;
+    color: #60B90F;
+}
+
+.table-position{
+    line-height: 40px;
+}
+.footer-order{
+    border-radius: 20px;
+    padding: 25px;
+    
+    .form-control{
+        border-radius: 10px;
+    }
+}
